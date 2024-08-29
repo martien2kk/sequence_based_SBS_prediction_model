@@ -26,4 +26,6 @@ The project code can be found in the ```src``` folder.
 Two different methods of ML were used for comparison, and are placed in different folders under ```src```:   ```random_forest``` and Convolutional Neural Network (```CNN```).   
 The random forest model utilized a k-mer approach; the CNN model implemented both the k-mer approach and the label-encoding (one-hot) method. 
 
+### Research Poster
+![Research Poster](image.png)
 
