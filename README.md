@@ -18,9 +18,12 @@ muts: mutation folder
 sig: SBS signature folder  
 pcawg_primary_type.csv: csv containing the patient id and correpsonding cancer type  
 
-To extract information for a specific type of cancer, for example lung cancer the shell script in the ```data``` folder could be used. 
+To extract information for a specific type of cancer, for example lung cancer, the shell script in the ```data``` folder (```extract_lung_scc_cancer_data.sh```) could be used. 
 
-### src
+### Src
 The project code can be found in the ```src``` folder. 
+
+Two different methods of ML were used for comparison, and are placed in different folders under ```src```:   ```random_forest``` and Convolutional Neural Network (```CNN```).   
+The random forest model utilized a k-mer approach; the CNN model implemented both the k-mer approach and the label-encoding (one-hot) method. 
 
 
